@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link rel="stylesheet" href="style.css">
+<style>
+  .quiz-container {
+  text-align: center;
+  margin: 100px auto;
+  width: 60%;
+}
+
+.question {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.option-btn {
+  padding: 10px 20px;
+  width: 60%;
+  font-size: 1rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-btn:hover {
+  background-color: #2980b9;
+}
+
+.level-bar-container {
+  background: #ddd;
+  border-radius: 20px;
+  height: 15px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.level-bar {
+  background: #27ae60;
+  height: 100%;
+  border-radius: 20px;
+  width: 0%;
+  transition: width 0.5s;
+}
+
+</style>
+</head>
+<body id="body" class="body">
+<!-- زرار الموبايل -->
+<button id="mobileMenuBtn" onclick="toggleNav()">☰</button>
+
+<section class="container">  
+    <div class="name_bg">
+        <div class="name_1"><h1>Mz</h1></div>
+        <div class="name_2"><h1>School</h1></div>
+    </div>
+
+    <div class="sy_a" id="navBar">
+        <a href="#body" class="a_1" >Home</a>
+        /
+        <a href="#about" class="a_2" >About</a>
+        /
+        <a href="#languages" class="a_3" >programming languages</a>
+        /
+        <a href="#quiz" class="a_4" >Programming exercises</a>
+        /
+        <a href="#level-text" class="a_5" >Student level</a>
+    </div>
+</section>
+
+<style>
+  /* زرار الموبايل مخفي على الديسكتوب */
+  #mobileMenuBtn {
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    z-index: 1000;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+/* نضيف للـ Nav Bar */
+
+
+/* شاشة الموبايل */
+
+
+  /* شاشة الموبايل */
+  @media (max-width: 768px) {
+    #mobileMenuBtn {
+      display: block;
+    }
+    #navBar {
+  position: fixed; /* يفضل fixed علشان يفضل فوق كل حاجة */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f1f1f1; /* خلفية واضحة */
+  z-index: 9999; /* أي رقم عالي علشان يبقى فوق كل العناصر */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+    #navBar {
+      display: none; /* اخفاء القائمة افتراضياً */
+      flex-direction: column;
+      background: #ffffff;
+      position: absolute;
+      top: 70px; /* حسب ارتفاع الهيدر */
+      width: 100%;
+      left: 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+    #navBar.show {
+      display: flex;
+    }
+    #navBar a {
+      display: block;
+      padding: 10px 0;
+      color: #2420e4;
+      text-decoration: none;
+    }
+  }
+</style>
+
+<script>
+  function toggleNav() {
+    const nav = document.getElementById('navBar');
+    nav.classList.toggle('show');
+  }
+</script>
+
+<section class="about" id="about">
+    <h2><span>Mz </span>School</h2>
+ <p>
+      <span>MZ</span> School is a creative learning space that helps children, adults, 
+      and learners of all ages discover their passion for technology and logical thinking 
+      in a fun, simple, and engaging way.  
+      Our goal is to empower every learner with real skills that allow them to create, 
+      design, and bring their ideas to life confidently.  
+      We're not just a school — we're a community of creators growing together, 
+      step by step, toward the future.
+    </p>
+</section>
+<section class="languages" id="languages">
+  <h2>Choose Your Language</h2>
+  <div class="language-list">
+
+    <a href="html.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>HTML</h3>
+        <p>Structure your web pages easily.</p>
+      </div>
+    </a>
+
+    <a href="css.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>CSS</h3>
+        <p>Design and style your websites.</p>
+      </div>
+    </a>
+
+    <a href="javascript.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>JavaScript</h3>
+        <p>Add interactivity and logic to your site.</p>
+      </div>
+    </a>
+
+    <a href="python.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>Python</h3>
+        <p>Learn easy and powerful coding.</p>
+      </div>
+    </a>
+
+    <a href="c++.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>C++</h3>
+        <p>Master performance and logic.</p>
+      </div>
+    </a>
+
+    <a href="java.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>Java</h3>
+        <p>Build apps and enterprise software.</p>
+      </div>
+    </a>
+
+    <a href="swift.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>Swift</h3>
+        <p>Develop iOS and macOS apps easily.</p>
+      </div>
+    </a>
+
+    <a href="php.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>PHP</h3>
+        <p>Build dynamic websites and backends.</p>
+      </div>
+    </a>
+
+    <a href="kotlin.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>Kotlin</h3>
+        <p>Create modern Android and multiplatform apps.</p>
+      </div>
+    </a>
+
+    <a href="ruby.html" style="text-decoration: none;">
+      <div class="language">
+        <h3>Ruby</h3>
+        <p>Write elegant code for web and software projects.</p>
+      </div>
+    </a>
+  </div>
+</section>
+<br><br>
+<div class="quiz-container" id="quiz">
+    <div id="question" class="question"></div>
+  <div id="options" class="options"></div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <br>
+
+  <h2 id="level-text">Your Level: 0%</h2>
+  <div class="level-bar-container">
+    <div id="level-bar" class="level-bar"></div>
+  </div>
+
+
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
