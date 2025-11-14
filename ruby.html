@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5255100681490124"
-     crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5255100681490124"
+     crossorigin="anonymous"></script>
+    <title>Learn Ruby - Mz School</title>
     <style>
-h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 1.1rem;
+    * {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f0f8f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .p_4 {
+      font-size: 1.1rem;
       line-height: 1.9;
       max-width: 700px;
       color: #2320e4;
-}
+      text-align: left;
+    }
+
+    .h3_4 {
+      color: #07944d;
+      font-size: 1.4rem;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .ul_4 {
+      color: #2320e4;
+    }
+
     .container_html:hover {
       transform: translateY(-5px);
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     }
-     .container_html {
+
+    .container_html {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -34,28 +60,237 @@ h3{
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
       transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
-        h2 {
+
+    .h2_4 {
       font-size: 2.2rem;
       margin-bottom: 20px;
       color: #07944d;
       border-bottom: 2px solid #fff;
       padding-bottom: 10px;
       display: inline-block;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    span {
+
+    .span_4 {
       color: #2420e4;
       font-weight: bold;
     }
-    </style>
+
+    /* Footer CSS نفس الموجود عندك */
+    .footer {
+      background: #2320e4;
+      color: #fff;
+      padding: 50px 20px 20px;
+      font-family: 'Cairo', sans-serif;
+    }
+    .footer-courses{
+      margin-left: -100px;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer h3 { color: #07944d; margin-bottom: 15px; font-size: 18px; }
+    .footer p { color: #f5f5f5; font-size: 14px; line-height: 1.6; }
+    .footer ul { list-style: none; padding: 0; margin: 0; }
+    .footer ul li { margin-bottom: 10px; }
+    .footer a { color: #fff; text-decoration: none; transition: 0.3s; }
+    .footer a:hover { color: #07944d; }
+    .logo-text { display: inline-block; background-color: #fff; padding: 6px 10px; border-radius: 8px; font-weight: bold; font-size: 26px; }
+    .logo-text .mz { color: #2320e4; }
+    .logo-text .school { color: #07944d; }
+    .footer-logo p { margin-top: 10px; font-size: 14px; color: #f1f1f1; }
+    .languages-list { display: flex; flex-wrap: wrap; gap: 10px 20px; }
+    .languages-list li { flex: 0 1 auto; margin-bottom: 5px; }
+    .footer-bottom { text-align: center; border-top: 1px solid #07944d; margin-top: 40px; padding-top: 15px; font-size: 13px; color: #ddd; }
+    .highlight { color: #07944d; font-weight: bold; }
+   @media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 40px 15px 15px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 13px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+    padding: 5px 8px;
+  }
+  .footer-courses{
+    margin-left: 0;
+  }
+}
+
+/* موبايل */
+@media (max-width: 600px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .footer-logo,
+  .footer-links,
+  .footer-courses,
+  .footer-contact {
+    width: 100%;
+  }
+
+  .footer h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .languages-list {
+    flex-wrap: wrap;
+    gap: 8px 15px;
+  }
+
+  .languages-list li {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+    padding: 4px 7px;
+  }
+    .footer-courses{
+    margin-left: 0;
+  }
+}
+
+/* موبايل صغير جدًا */
+@media (max-width: 400px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-container {
+    align-items: center;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+    .footer-courses{
+    margin-left: 0;
+  }
+}
+   </style>
 </head>
 <body>
-   
-    <a href="index.html" style="font-size:25px;color:#2420e4;text-decoration: none;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Back To Home →</a>
-    <div class="container_html">
-         <h2><span>Mz </span>School</h2>
-<embed src="Noor-Book.com  مقدمة في روبي.pdf" type="application/pdf" width="100%" height="800px" />
-    </div>
-</body>
 
+<div class="container_html">
+  <h2 class="h2_4"><span>Mz </span>School</h2>
+
+  <p class="p_4" style="text-align:center; margin-bottom:20px;">
+    Welcome to <strong>Mz School</strong>. This guide introduces you to the Ruby programming language and its key concepts.  
+    All content is for educational purposes only.
+  </p>
+
+  <h3 class="h3_4">About Ruby</h3>
+  <p class="p_4">
+    Ruby is a dynamic, open-source programming language focused on simplicity and productivity.  
+    It is widely used for web development, especially with the Ruby on Rails framework.  
+    This PDF covers:
+    <ul class="ul_4">
+      <li>Basic syntax and structure of Ruby.</li>
+      <li>Variables, data types, and operators.</li>
+      <li>Methods, loops, and control flow.</li>
+      <li>Object-oriented programming in Ruby.</li>
+    </ul>
+  </p>
+
+  <h3 class="h3_4">Usage Guidelines</h3>
+  <p class="p_4">
+    This PDF is for personal learning purposes only.  
+    Redistribution or commercial use without permission is prohibited.
+  </p>
+
+  <br>
+
+  <embed src="Noor-Book.com  مقدمة في روبي.pdf" type="application/pdf" width="100%" height="800px" />
+</div>
+
+<!-- Footer نفس باقي الصفحات -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-logo">
+      <h2 class="logo-text">
+        <span class="mz">Mz </span><span class="school">School</span>
+      </h2>
+      <p>A platform dedicated to teaching programming in an easy and modern way for Arab learners.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms Of Use</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-courses">
+      <h3>Programming Languages</h3>
+      <ul class="languages-list">
+        <li><a href="html.html">HTML</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
+        <li><a href="python.html">Python</a></li>
+        <li><a href="c++.html">C++</a></li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="swift.html">Swift</a></li>
+        <li><a href="php.html">PHP</a></li>
+        <li><a href="kotlin.html">Kotlin</a></li>
+        <li><a href="ruby.html">Ruby</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>mzschool.com@hotmail.com</p>
+      <p>01501527888</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <span class="highlight">Mz School</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
 </html>
