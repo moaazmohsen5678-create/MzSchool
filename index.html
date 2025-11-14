@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta name="google-site-verification" content="h8kvdETCCVk7Yni1-XAIrcjCA__PI1oBt7nLIfN5t3E" />
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5255100681490124"
-     crossorigin="anonymous"></script>
+  <meta name="google-site-verification" content="h8kvdETCCVk7Yni1-XAIrcjCA__PI1oBt7nLIfN5t3E" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>  
+    <title>Home - Mz School</title>  
     <link rel="stylesheet" href="style.css">
 <style>
+
   .quiz-container {
   text-align: center;
   margin: 100px auto;
@@ -58,13 +57,213 @@
   width: 0%;
   transition: width 0.5s;
 }
+.footer {
+  background: #2320e4;
+  color: #fff;
+  padding: 50px 20px 20px;
+  font-family: 'Cairo', sans-serif;
+}
+.footer-courses{
+  margin-left: -100px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h3 {
+  color: #07944d;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer p {
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #07944d;
+}
+
+/* اللوجو */
+.logo-text {
+  display: inline-block;
+  background-color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.logo-text .mz {
+  color: #2320e4;
+}
+
+.logo-text .school {
+  color: #07944d;
+}
+
+.footer-logo p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+/* اللغات جنب بعض */
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.languages-list li {
+  flex: 0 1 auto;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #07944d;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #ddd;
+}
+
+.highlight {
+  color: #07944d;
+  font-weight: bold;
+}
+
+/* ✅ Responsive Footer for all devices */
+
+/* تابلت */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 40px 15px 15px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 13px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+    padding: 5px 8px;
+  }
+  .footer-courses{
+    margin-left: 0;
+  }
+}
+
+/* موبايل */
+@media (max-width: 600px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .footer-logo,
+  .footer-links,
+  .footer-courses,
+  .footer-contact {
+    width: 100%;
+  }
+
+  .footer h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .footer p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .languages-list {
+    flex-wrap: wrap;
+    gap: 8px 15px;
+  }
+
+  .languages-list li {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+    padding: 4px 7px;
+  }
+    .footer-courses{
+    margin-left: 0;
+  }
+}
+
+/* موبايل صغير جدًا */
+@media (max-width: 400px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-container {
+    align-items: center;
+  }
+
+  .footer ul {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+    .footer-courses{
+    margin-left: 0;
+  }
+}
+
 
 </style>
 </head>
 <body id="body" class="body">
-<!-- زرار الموبايل -->
 <button id="mobileMenuBtn" onclick="toggleNav()">☰</button>
-
 <section class="container">  
     <div class="name_bg">
         <div class="name_1"><h1>Mz</h1></div>
@@ -74,8 +273,6 @@
     <div class="sy_a" id="navBar">
         <a href="#body" class="a_1" >Home</a>
         /
-        <a href="#about" class="a_2" >About</a>
-        /
         <a href="#languages" class="a_3" >programming languages</a>
         /
         <a href="#quiz" class="a_4" >Programming exercises</a>
@@ -83,7 +280,6 @@
         <a href="#level-text" class="a_5" >Student level</a>
     </div>
 </section>
-
 <style>
   /* زرار الموبايل مخفي على الديسكتوب */
   #mobileMenuBtn {
@@ -142,28 +338,23 @@
     }
   }
 </style>
-
 <script>
   function toggleNav() {
     const nav = document.getElementById('navBar');
     nav.classList.toggle('show');
   }
 </script>
-
-<section class="about" id="about">
-    <h2><span>Mz </span>School</h2>
- <p>
-      <span>MZ</span> School is a creative learning space that helps children, adults, 
-      and learners of all ages discover their passion for technology and logical thinking 
-      in a fun, simple, and engaging way.  
-      Our goal is to empower every learner with real skills that allow them to create, 
-      design, and bring their ideas to life confidently.  
-      We're not just a school — we're a community of creators growing together, 
-      step by step, toward the future.
-    </p>
-</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <section class="languages" id="languages">
-  <h2>Choose Your Language</h2>
   <div class="language-list">
 
     <a href="html.html" style="text-decoration: none;">
@@ -256,10 +447,57 @@
 
 
 </div>
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-logo">
+      <h2 class="logo-text">
+        <span class="mz">Mz </span><span class="school">School</span>
+      </h2>
+      <p>A platform dedicated to teaching programming in an easy and modern way for Arab learners.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms Of Use</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-courses">
+      <h3>Programming Languages</h3>
+      <ul class="languages-list">
+        <li><a href="html.html">HTML</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
+        <li><a href="python.html">Python</a></li>
+        <li><a href="c++.html">C++</a></li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="swift.html">Swift</a></li>
+        <li><a href="php.html">PHP</a></li>
+        <li><a href="kotlin.html">Kotlin</a></li>
+        <li><a href="ruby.html">Ruby</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>mzschool.com@hotmail.com</p>
+      <p>01501527888</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <span class="highlight">Mz School</span>. All rights reserved.</p>
+  </div>
+</footer>
+
+
 
 <script src="js.js"></script>
 </body>
-
 </html>
-
-
