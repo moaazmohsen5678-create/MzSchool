@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Mz School</title>
+    <link>https://mz-school.vercel.app/</link>
+    <description>تعليم لغات البرمجة مع Mz School</description>
+    <language>ar</language>
+    <lastBuildDate>Sat, 16 Nov 2025 09:00:00 +0200</lastBuildDate>
+
+    <!-- الصفحة الرئيسية -->
+    <item>
+      <title>الصفحة الرئيسية</title>
+      <link>https://mz-school.vercel.app/index.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>الصفحة الرئيسية لموقع Mz School</description>
+    </item>
+
+    <!-- About -->
+    <item>
+      <title>عن الموقع</title>
+      <link>https://mz-school.vercel.app/about.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>صفحة عن موقع Mz School</description>
+    </item>
+
+    <!-- Contact -->
+    <item>
+      <title>تواصل معنا</title>
+      <link>https://mz-school.vercel.app/contact.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>صفحة تواصل مع Mz School</description>
+    </item>
+
+    <!-- Privacy -->
+    <item>
+      <title>سياسة الخصوصية</title>
+      <link>https://mz-school.vercel.app/privacy.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>صفحة سياسة الخصوصية</description>
+    </item>
+
+    <!-- Terms -->
+    <item>
+      <title>شروط الاستخدام</title>
+      <link>https://mz-school.vercel.app/terms.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>صفحة شروط الاستخدام</description>
+    </item>
+
+    <!-- لغات البرمجة -->
+    <item>
+      <title>HTML</title>
+      <link>https://mz-school.vercel.app/html.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم HTML</description>
+    </item>
+
+    <item>
+      <title>CSS</title>
+      <link>https://mz-school.vercel.app/css.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم CSS</description>
+    </item>
+
+    <item>
+      <title>JavaScript</title>
+      <link>https://mz-school.vercel.app/javascript.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم JavaScript</description>
+    </item>
+
+    <item>
+      <title>Python</title>
+      <link>https://mz-school.vercel.app/python.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم Python</description>
+    </item>
+
+    <item>
+      <title>C++</title>
+      <link>https://mz-school.vercel.app/c++.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم C++</description>
+    </item>
+
+    <item>
+      <title>Java</title>
+      <link>https://mz-school.vercel.app/java.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم Java</description>
+    </item>
+
+    <item>
+      <title>Swift</title>
+      <link>https://mz-school.vercel.app/swift.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم Swift</description>
+    </item>
+
+    <item>
+      <title>PHP</title>
+      <link>https://mz-school.vercel.app/php.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم PHP</description>
+    </item>
+
+    <item>
+      <title>Kotlin</title>
+      <link>https://mz-school.vercel.app/kotlin.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم Kotlin</description>
+    </item>
+
+    <item>
+      <title>Ruby</title>
+      <link>https://mz-school.vercel.app/ruby.html</link>
+      <pubDate>Sat, 16 Nov 2025 09:00:00 +0200</pubDate>
+      <description>تعلم Ruby</description>
+    </item>
+
+  </channel>
+</rss>
